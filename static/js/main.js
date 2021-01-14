@@ -121,7 +121,7 @@ update_temperature(url);
 
 
 function update_icon(icon_id) {
-    let ICON_URL = `http://openweathermap.org/img/wn/${icon_id}@4x.png`;
+    let ICON_URL = `https://openweathermap.org/img/wn/${icon_id}@4x.png`;
     let weather_icon = document.querySelector('#weather-icon');
     weather_icon.setAttribute('src', ICON_URL);
 }
